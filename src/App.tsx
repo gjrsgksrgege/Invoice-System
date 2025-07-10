@@ -7,7 +7,7 @@ import Admin from "./pages/Admin";
 const App = () => {
   return (
     <div className="text-sm text-black font-semibold">
-      <BrowserRouter basename="/InvoicePost">
+      <BrowserRouter basename="/Invoice-System">
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/signup" element={<Register />} />
